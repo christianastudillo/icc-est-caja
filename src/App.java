@@ -69,7 +69,7 @@ public class App {
         System.out.println("\nPersonas menores de edad:");
         for (Par<Integer, String> par : arregloParEdad) {
             if (par != null) {
-                System.out.println("Edad: " + par.obtenerClave() + ", Nombre: " + par.obtenerValor());
+                System.out.println("Clave: " + par.obtenerClave() + ", Valor: " + par.obtenerValor());
             }
         }
     }
